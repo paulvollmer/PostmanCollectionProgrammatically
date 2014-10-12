@@ -1,8 +1,9 @@
 # General
 *.DS_Store
 
-# Node.js
+# Node.js & Grunt tasks
 node_modules
+coverage
 
 # IDEs
 .idea
