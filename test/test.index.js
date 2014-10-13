@@ -78,6 +78,24 @@ describe('PostmanCollection', function() {
       assert.equal(postman.isMethodValid('put'), true);
       assert.equal(postman.isMethodValid('DELETE'), true);
       assert.equal(postman.isMethodValid('delete'), true);
+      assert.equal(postman.isMethodValid('COPY'), true);
+      assert.equal(postman.isMethodValid('copy'), true);
+      assert.equal(postman.isMethodValid('HEAD'), true);
+      assert.equal(postman.isMethodValid('head'), true);
+      assert.equal(postman.isMethodValid('OPTIONS'), true);
+      assert.equal(postman.isMethodValid('options'), true);
+      assert.equal(postman.isMethodValid('LINK'), true);
+      assert.equal(postman.isMethodValid('link'), true);
+      assert.equal(postman.isMethodValid('UNLINK'), true);
+      assert.equal(postman.isMethodValid('unlink'), true);
+      assert.equal(postman.isMethodValid('PURGE'), true);
+      assert.equal(postman.isMethodValid('purge'), true);
+      assert.equal(postman.isMethodValid('LOCK'), true);
+      assert.equal(postman.isMethodValid('lock'), true);
+      assert.equal(postman.isMethodValid('UNLOCK'), true);
+      assert.equal(postman.isMethodValid('unlock'), true);
+      assert.equal(postman.isMethodValid('PROPFIND'), true);
+      assert.equal(postman.isMethodValid('propfind'), true);
     });
   });
 
