@@ -5,7 +5,7 @@
 node_modules
 npm-debug.log
 coverage
-test/test-postman-collection.json
+*test-postman-collection.json
 
 # IDEs
 .idea

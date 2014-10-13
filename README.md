@@ -3,13 +3,20 @@
 [![Dependency Status](https://gemnasium.com/WrongEntertainment/PostmanCollectionProgrammatically.svg)](https://gemnasium.com/WrongEntertainment/PostmanCollectionProgrammatically)
 
 
-Create Postman collection json files programmatically.
+Create [Postman](http://www.getpostman.com/) collection json files programmatically.
+
+
+## Installation
+
+   npm install WrongEntertainment/PostmanCollectionProgrammatically
+
 
 ## Running Tests
 
 run the tests:
 
     npm test
+
 
 ## License
 

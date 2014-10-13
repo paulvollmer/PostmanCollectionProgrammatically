@@ -1,7 +1,7 @@
 {
   "name": "PostmanCollectionProgrammatically",
   "version": "0.0.1",
-  "description": "",
+  "description": "create postman collection programmatically",
   "keywords": [
     "postman",
     "collection"
