@@ -33,6 +33,13 @@ describe('PostmanCollection', function() {
       assert.equal(postman.doc.folders.length, 2);
     });
 
+    it('should create a new instance with invalid folders param', function() {
+      var postman = new PostmanCollection({
+        folders: 'folder-1'
+      });
+      assert.equal(postman.doc.folders.length, 0);
+    });
+
     it('should create a new instance with requests', function() {
       var postman = new PostmanCollection({
         requests: [
@@ -41,6 +48,13 @@ describe('PostmanCollection', function() {
         ]
       });
       assert.equal(postman.doc.requests.length, 2);
+    });
+
+    it('should create a new instance with invalid requests param', function() {
+      var postman = new PostmanCollection({
+        requests: 'requests-1'
+      });
+      assert.equal(postman.doc.requests.length, 0);
     });
   });
 
@@ -139,8 +153,9 @@ describe('PostmanCollection', function() {
       assert.equal(postman.folderExists('bar'), false);
     });
 
-    it('should return true if folder already exist', function () {
-      assert.equal(postman.folderExists('foo'), true);
+    it('should return object if folder already exist', function () {
+      var folder = postman.folderExists('foo');
+      assert.equal(folder, 0);
     });
   });
 
