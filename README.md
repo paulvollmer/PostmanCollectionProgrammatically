@@ -3,7 +3,7 @@
 [![Dependency Status](https://gemnasium.com/WrongEntertainment/PostmanCollectionProgrammatically.svg)](https://gemnasium.com/WrongEntertainment/PostmanCollectionProgrammatically)
 
 
-Create [Postman](http://www.getpostman.com/) collection json files programmatically.
+Create [Postman](http://www.getpostman.com/) collection ```json``` file programmatically.
 
 
 ## Installation
