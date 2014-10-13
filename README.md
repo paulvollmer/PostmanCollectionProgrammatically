@@ -10,3 +10,7 @@ Create Postman collection json files programmatically.
 run the tests:
 
     npm test
+
+## License
+
+[MIT](LICENSE)
