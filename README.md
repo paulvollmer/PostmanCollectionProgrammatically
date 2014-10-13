@@ -8,7 +8,7 @@ Create [Postman](http://www.getpostman.com/) collection json files programmatica
 
 ## Installation
 
-   npm install WrongEntertainment/PostmanCollectionProgrammatically
+    npm install WrongEntertainment/PostmanCollectionProgrammatically
 
 
 ## Running Tests
