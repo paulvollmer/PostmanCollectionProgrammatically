@@ -9,6 +9,9 @@
   "author": "Paul Vollmer",
   "license": "MIT",
   "main": "lib/index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
   "scripts": {
     "test": "grunt test"
   },

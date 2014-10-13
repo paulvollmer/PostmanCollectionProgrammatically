@@ -3,6 +3,7 @@
 
 # Node.js & Grunt tasks
 node_modules
+npm-debug.log
 coverage
 test/test-postman-collection.json
 
