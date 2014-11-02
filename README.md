@@ -1,6 +1,6 @@
 # PostmanCollectionProgrammatically
-[![Build Status](https://travis-ci.org/WrongEntertainment/PostmanCollectionProgrammatically.svg?branch=master)](https://travis-ci.org/WrongEntertainment/PostmanCollectionProgrammatically)
-[![Dependency Status](https://gemnasium.com/WrongEntertainment/PostmanCollectionProgrammatically.svg)](https://gemnasium.com/WrongEntertainment/PostmanCollectionProgrammatically)
+[![Build Status](https://travis-ci.org/paulvollmer/PostmanCollectionProgrammatically.svg?branch=master)](https://travis-ci.org/paulvollmer/PostmanCollectionProgrammatically)
+[![Dependency Status](https://gemnasium.com/paulvollmer/PostmanCollectionProgrammatically.svg)](https://gemnasium.com/paulvollmer/PostmanCollectionProgrammatically)
 
 
 Create [Postman](http://www.getpostman.com/) collection ```json``` file programmatically.
@@ -8,7 +8,7 @@ Create [Postman](http://www.getpostman.com/) collection ```json``` file programm
 
 ## Installation
 
-    npm install WrongEntertainment/PostmanCollectionProgrammatically
+    npm install paulvollmer/PostmanCollectionProgrammatically
 
 
 ## Running Tests
